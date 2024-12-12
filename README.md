@@ -13,7 +13,8 @@ Nessa pasta deverá conter os códigos de todos os alunos que estão participand
 
 Ao termino de cada exercicio, o aluno deverá subir o seu código para uma branch remota com o seu nome e a soluçao do exercicio proposto conforme o decorrer das aulas. Ao final de cada aula, os alunos deverão submeter um pull request para a branch master com as suas consideraçẽs.
 
-aulas/: Contém os códigos e exemplos apresentados em cada aula separadas por módulos. Ex.: aulas/modulo-1 
+aulas/: Contém os códigos e exemplos apresentados em cada aula separadas por módulos. 
+Ex.: aulas/modulo-1 
 
 exercicios/: Códigos de referência e soluções para os exercícios propostos.
 
