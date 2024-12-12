@@ -93,11 +93,5 @@ Siga as boas práticas do Python, como:
 
 Se quiser praticar ainda mais, confira a seção ```exercicios/``` para desafios adicionais. Você pode submeter suas soluções ou propor novos desafios para os colegas.
 
-📞 Suporte
-Se tiver dúvidas sobre o curso ou encontrar problemas no repositório, abra uma issue no GitHub ou entre em contato diretamente pelo fórum de discussão do curso.
-
-👩‍💻 Desenvolvedor
-Este repositório foi criado por Antonio Pedro Ferreira.
-Conecte-se comigo no GitHub.
 
 Vamos construir juntos uma experiência de aprendizado incrível? 🎉
