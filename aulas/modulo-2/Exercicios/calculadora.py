@@ -36,11 +36,11 @@ def calculadora_simples():
 
     while True:
         num1 = float(input("\nDigite o primeiro número: "))
-        
-        operacao = input("\nDigite a operação desejada (+, -, *, /, %, //, ou 'sair'): ").lower()
+
+        operacao = input("\nDigite a operação desejada (+, -, *, /, %, //): ").lower()
 
         if operacao not in ['+', '-', '*', '/', '%', '//']:
-            print("Operação inválida. Por favor, escolha entre +, -, *, /, %, // ou 'sair'.")
+            print("Operação inválida. Por favor, escolha entre +, -, *, /, %, //.")
             continue
 
         num2 = float(input("\nDigite o segundo número: "))
