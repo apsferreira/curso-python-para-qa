@@ -32,7 +32,6 @@ def calculadora_simples():
     print("  / : Divisão")
     print("  % : Módulo (Resto da divisão)")
     print("  //: Divisão Inteira")
-    print("  sair: Para encerrar")
 
     while True:
         num1 = float(input("\nDigite o primeiro número: "))
