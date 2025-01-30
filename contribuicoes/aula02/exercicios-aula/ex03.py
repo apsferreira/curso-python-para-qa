@@ -38,4 +38,3 @@ else:
         print(f'DIVISÃO INTEIRA {num1} // {num2} = {round(num1//num2, 2)}')
     elif operacao == "%":
         print(f'RESTO DA DIVISAO {num1} % {num2} = {round(num1%num2, 2)}')
->>>>>>> d065666 (Melhorando a calculadora, definindo a operação.)
