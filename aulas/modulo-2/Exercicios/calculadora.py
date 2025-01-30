@@ -24,7 +24,7 @@ def divisao_inteira(n1, n2):
 
 def calculadora_simples():
 
-    print("Calculadora Python Simples")
+    print("Calculadora Python Simples 10 Minutos")
     print("Operações disponíveis:")
     print("  + : Soma")
     print("  - : Subtração")
@@ -35,19 +35,17 @@ def calculadora_simples():
     print("  sair: Para encerrar")
 
     while True:
+        num1 = float(input("\nDigite o primeiro número: "))
+        
         operacao = input("\nDigite a operação desejada (+, -, *, /, %, //, ou 'sair'): ").lower()
-
-        if operacao == 'sair':
-            print("Encerrando a calculadora.")
-            break
 
         if operacao not in ['+', '-', '*', '/', '%', '//']:
             print("Operação inválida. Por favor, escolha entre +, -, *, /, %, // ou 'sair'.")
             continue
 
+        num2 = float(input("\nDigite o segundo número: "))
+
         try:
-            num1 = float(input("Digite o primeiro número: "))
-            num2 = float(input("Digite o segundo número: "))
 
             if operacao == '+':
                 resultado = somar(num1, num2)
