@@ -1,68 +1,75 @@
-from math import floor
+def somar(n1, n2):
+    return n1 + n2
 
-def calculadora_sequencial():
-    resultado_atual = 0.0 
-    primeira_vez = True
+def subtrair(n1, n2):
+    return n1 - n2
 
-    print("Operações disponíveis: +, -, *, /, %, //, = (definir), sair")
-    print("Digite 'sair' como operação para encerrar.")
+def multiplicar(n1, n2):
+    return n1 * n2
+
+def dividir(n1, n2):
+    if n2 == 0:
+        raise ZeroDivisionError("Erro: Divisão por zero!")
+    return n1 / n2
+
+def modulo(n1, n2):
+    if n2 == 0:
+        raise ZeroDivisionError("Erro: Módulo por zero!")
+    return n1 % n2
+
+def divisao_inteira(n1, n2):
+    if n2 == 0:
+        raise ZeroDivisionError("Erro: Divisão inteira por zero!")
+    return n1 // n2
+
+def calculadora_simples():
+
+    print("Calculadora Python Simples")
+    print("Operações disponíveis:")
+    print("  + : Soma")
+    print("  - : Subtração")
+    print("  * : Multiplicação")
+    print("  / : Divisão")
+    print("  % : Módulo (Resto da divisão)")
+    print("  //: Divisão Inteira")
+    print("  sair: Para encerrar")
 
     while True:
-        print("\nResultado Atual:", resultado_atual)
+        operacao = input("\nDigite a operação desejada (+, -, *, /, %, //, ou 'sair'): ").lower()
+
+        if operacao == 'sair':
+            print("Encerrando a calculadora.")
+            break
+
+        if operacao not in ['+', '-', '*', '/', '%', '//']:
+            print("Operação inválida. Por favor, escolha entre +, -, *, /, %, // ou 'sair'.")
+            continue
 
         try:
-            if primeira_vez:
-                num1 = float(input("Digite o primeiro número: "))
-                resultado_atual = num1
-                primeira_vez = False
-            else:
-                num1 = resultado_atual
-
-
-            operacao = input("Digite a operação (+, -, *, /, %, //, =, ou 'sair'): ").lower()
-
-            if operacao == 'sair':
-                print("Encerrando a calculadora sequencial.")
-                break
-            elif operacao == '=':
-                novo_valor = float(input("Digite o novo valor para substituir o resultado atual: "))
-                resultado_atual = novo_valor
-                continue
-
-            if operacao not in ['+', '-', '*', '/', '%', '//']:
-                print("Operação inválida. Por favor, escolha entre +, -, *, /, %, //, =, ou 'sair'.")
-                continue
-
+            num1 = float(input("Digite o primeiro número: "))
             num2 = float(input("Digite o segundo número: "))
 
             if operacao == '+':
-                resultado_atual = num1 + num2
+                resultado = somar(num1, num2)
             elif operacao == '-':
-                resultado_atual = num1 - num2
+                resultado = subtrair(num1, num2)
             elif operacao == '*':
-                resultado_atual = num1 * num2
+                resultado = multiplicar(num1, num2)
             elif operacao == '/':
-                if num2 == 0:
-                    raise ZeroDivisionError("Erro: Divisão por zero!")
-                resultado_atual = num1 / num2
+                resultado = dividir(num1, num2)
             elif operacao == '%':
-                if num2 == 0:
-                    raise ZeroDivisionError("Erro: Módulo por zero!")
-                resultado_atual = num1 % num2
+                resultado = modulo(num1, num2)
             elif operacao == '//':
-                if num2 == 0:
-                    raise ZeroDivisionError("Erro: Divisão inteira por zero!")
-                resultado_atual = floor(num1 / num2)
+                resultado = divisao_inteira(num1, num2)
+
+            print("Resultado:", resultado)
 
         except ValueError:
-            print("Entrada inválida. Por favor, digite números e operações válidas.")
-            primeira_vez = False
+            print("Entrada inválida. Por favor, digite números válidos.")
         except ZeroDivisionError as e:
             print(e)
-            primeira_vez = False
         except Exception as e:
             print(f"Ocorreu um erro inesperado: {e}")
-            primeira_vez = False
 
 if __name__ == "__main__":
-    calculadora_sequencial()
+    calculadora_simples()
