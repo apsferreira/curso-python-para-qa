@@ -1,0 +1,14 @@
+print("CALCULADORA - OPERAÇÕES BÁSICAS\n\n")
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+print("*********************************************\n")
+print(f"Os números foram: {num1} e {num2}\n\n")
+print(f'SOMA {num1} + {num2} = {round(num1+num2, 2)}')
+print(f'SUBTRAÇÃO {num1} - {num2} = {round(num1-num2, 2)}')
+print(f'MULTIPLICAÇÃO {num1} * {num2} = {round(num1*num2, 2)}')
+print(f'DIVISÃO {num1} / {num2} = {round(num1/num2, 2)}')
+print(f'DIVISÃO INTEIRA {num1} // {num2} = {round(num1//num2, 2)}')
+print(f'RESTO DA DIVISAO {num1} % {num2} = {round(num1%num2, 2)}')
+print(f'POTENCIACÃO {num1} ^ {num2} = {round(num1**num2, 2)}')
