@@ -1,0 +1,7 @@
+Caso de Teste,Resultado Esperado,Resultado Obtido
+Login,Pass,Pass
+Cadastro,Pass,Fail
+Busca,Pass,Pass
+Checkout,Fail,Fail
+Pagamento,Pass,Pass
+Logout,Pass,Fail
