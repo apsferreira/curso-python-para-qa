@@ -1,0 +1,94 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:35:36] "GET /curso HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:35:36] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários inserido corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:35:36] "[35m[1mPOST /usuarios HTTP/1.1[0m" 201 -
+INFO:root:user_id: 99
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:35:36] "[35m[1mDELETE /usuarios/99 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/gerar_relatorios.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:40:18] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:43:00] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:43:21] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:45:01] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:49:34] "GET /curso HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:49:34] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários inserido corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:49:34] "[35m[1mPOST /usuarios HTTP/1.1[0m" 201 -
+INFO:root:user_id: 99
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:49:34] "[35m[1mDELETE /usuarios/99 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:01] "GET /curso HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:01] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários inserido corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:01] "[35m[1mPOST /usuarios HTTP/1.1[0m" 201 -
+INFO:root:user_id: 99
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:01] "DELETE /usuarios/99 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:42] "GET /curso HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:42] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários inserido corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:42] "[35m[1mPOST /usuarios HTTP/1.1[0m" 201 -
+INFO:root:user_id: 99
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:56:42] "[35m[1mDELETE /usuarios/99 HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:57:41] "GET /curso HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:57:41] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários inserido corretamente
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:57:41] "[35m[1mPOST /usuarios HTTP/1.1[0m" 201 -
+INFO:root:user_id: 99
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 15:57:41] "[35m[1mDELETE /usuarios/99 HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
+INFO:werkzeug: * Detected change in '/home/davidmodestodesouza/repos/curso-python-para-qa/contribuicoes/david_modesto/projeto_qa_david/src/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 243-943-166
