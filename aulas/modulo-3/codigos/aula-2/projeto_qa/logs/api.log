@@ -1,0 +1,80 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:root:Usuários Listados com sucesso
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 16:40:13] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:root:Usuários Listados com sucesso
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 16:41:57] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:root:Usuários Listados com sucesso
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 16:42:14] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários Listados com sucesso
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 16:42:17] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários Listados com sucesso
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2025 16:42:41] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
+INFO:werkzeug: * Detected change in '/Users/apsferreira/Projects/FIAP/python_qas/curso-python-para-qa/aulas/modulo-3/codigos/aula-2/projeto_qa/src/analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-979-594
