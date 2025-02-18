@@ -37,6 +37,5 @@ def remover_usuario(id_usuario):
     return jsonify({"mensagem" : "Usuário removido com sucesso"})
 
 
-
 if __name__ == "__main__":
     app.run(debug=True)
