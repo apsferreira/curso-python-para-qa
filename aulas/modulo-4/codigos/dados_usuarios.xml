@@ -1,0 +1,17 @@
+<usuarios>
+    <usuario>
+        <id>1</id>
+        <nome>Alice</nome>
+        <email>alice@email.com</email>
+    </usuario>
+    <usuario>
+        <id>2</id>
+        <nome>Marlene</nome>
+        <email>marlene@email.com</email>
+    </usuario>
+    <usuario>
+        <id>2</id>
+        <nome>Marcia</nome>
+        <email>marcia@email.com</email>
+    </usuario>
+</usuarios>
