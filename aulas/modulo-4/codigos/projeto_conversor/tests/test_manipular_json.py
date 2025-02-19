@@ -1,9 +1,14 @@
 import json
 import os
-from manipulacao_json import listar_usuarios
+import pytest
+from ..manipulacao_json.manipular_json import (
+    listar_usuarios,
+    carregar_dados
+)
 
 TEST_FILE = "dados_teste.json"
 
+@pytest.fixture
 def setup_json():
     dados_teste = [
         {"id": 1, "nome": "Alice", "email": "alice@email.com"},
@@ -20,9 +25,16 @@ def setup_json():
 
     
 def test_listar_usuarios(setup_json, capsys):
-    listar_usuarios()
-
+    listar_usuarios(setup_json)
+    
     captured = capsys.readouterr()
     assert "Alice" in captured.out
     assert "Bruna" in captured.out
     assert "Lucas" in captured.out
+
+def test_carregar_dados(setup_json):
+    dados = carregar_dados(setup_json)
+
+    assert isinstance(dados, list)
+    assert len(dados) == 3
+    assert dados[0]["nome"] == "Alice"
