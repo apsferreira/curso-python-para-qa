@@ -3,7 +3,8 @@ import os
 import pytest
 from ..manipulacao_json.manipular_json import (
     listar_usuarios,
-    carregar_dados
+    carregar_dados, 
+    adicionar_usuario
 )
 
 TEST_FILE = "dados_teste.json"
@@ -38,3 +39,15 @@ def test_carregar_dados(setup_json):
     assert isinstance(dados, list)
     assert len(dados) == 3
     assert dados[0]["nome"] == "Alice"
+
+def test_salvar_dados(setup_json):
+    # novos_usuarios = [
+    #     {"id": 4, "nome": "Daniel", "email":"daniel@email.com"},
+    # ]
+
+    dados = carregar_dados()
+
+    adicionar_usuario(4, "Daniel", "daniel@emial.com", setup_json)
+
+    assert dados[3]["nome"] == "Daniel"
+
