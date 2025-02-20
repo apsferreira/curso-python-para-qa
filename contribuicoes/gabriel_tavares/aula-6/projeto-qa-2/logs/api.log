@@ -1,0 +1,25 @@
+;INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:26:31] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:26:44] "[31m[1mGET /usuarios/3 HTTP/1.1[0m" 405 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:27:01] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:28:34] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:28:35] "GET /usuarios HTTP/1.1" 200 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:28:46] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:28:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:29:49] "[31m[1mGET /usuarios/1 HTTP/1.1[0m" 405 -
+INFO:root:Usuários listados corretamente
+INFO:werkzeug:127.0.0.1 - - [13/Feb/2025 14:29:55] "GET /usuarios HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\temp\\curso-python-para-qa\\contribuicoes\\gabriel_tavares\\projeto-qa-1\\src\\analisar_dados.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Logger iniciado com sucesso!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-316-946
+INFO:werkzeug: * Detected change in 'C:\\temp\\curso-python-para-qa\\contribuicoes\\gabriel_tavares\\projeto-qa-1\\src\\gerar_relatorios.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Logger iniciado com sucesso!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-316-946
