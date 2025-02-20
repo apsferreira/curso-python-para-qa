@@ -1,0 +1,17 @@
+<usuarios>
+    <usuario>
+        <id>1</id>
+        <nome>Antonio Pedro</nome>
+        <email>contato@antoniopedr.com.br</email>
+    </usuario>
+    <usuario>
+        <id>2</id>
+        <nome>Cleide Santos</nome>
+        <email>cleide@teste.com.br</email>
+    </usuario>
+    <usuario>
+        <id>3</id>
+        <nome>Marcos Castro</nome>
+        <email>marcos@teste.com.br</email>
+    </usuario>
+</usuarios>
