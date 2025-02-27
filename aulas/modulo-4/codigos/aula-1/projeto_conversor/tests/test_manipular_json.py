@@ -41,9 +41,6 @@ def test_carregar_dados(setup_json):
     assert dados[0]["nome"] == "Alice"
 
 def test_salvar_dados(setup_json):
-    # novos_usuarios = [
-    #     {"id": 4, "nome": "Daniel", "email":"daniel@email.com"},
-    # ]
 
     dados = carregar_dados()
 
